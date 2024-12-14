@@ -13,6 +13,7 @@ namespace MehovichPractikaISP
         public MainPage()
         {
             //Начало работы
+            //Проверка работы с коммитами
             InitializeComponent();
         }
     }
