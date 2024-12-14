@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33130.400
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MehovichPractikaISP.Android", "MehovichPractikaISP\MehovichPractikaISP.Android\MehovichPractikaISP.Android.csproj", "{689A4624-B626-4A06-8424-0FA60D4ECCE6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MehovichPractikaISP", "MehovichPractikaISP\MehovichPractikaISP\MehovichPractikaISP.csproj", "{96AB6450-63F5-4BD6-AC4A-2A65E266F18A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{689A4624-B626-4A06-8424-0FA60D4ECCE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{689A4624-B626-4A06-8424-0FA60D4ECCE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{689A4624-B626-4A06-8424-0FA60D4ECCE6}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{689A4624-B626-4A06-8424-0FA60D4ECCE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{689A4624-B626-4A06-8424-0FA60D4ECCE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{689A4624-B626-4A06-8424-0FA60D4ECCE6}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{96AB6450-63F5-4BD6-AC4A-2A65E266F18A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96AB6450-63F5-4BD6-AC4A-2A65E266F18A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96AB6450-63F5-4BD6-AC4A-2A65E266F18A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96AB6450-63F5-4BD6-AC4A-2A65E266F18A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {351CF92F-4626-40D5-94F4-0547BE9E6377}
+	EndGlobalSection
+EndGlobal
