@@ -16,5 +16,10 @@ namespace MehovichPractikaISP
             //Проверка работы с коммитами
             InitializeComponent();
         }
+
+        private void Exit_Clicked(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.GetCurrentProcess().Kill();
+        }
     }
 }
