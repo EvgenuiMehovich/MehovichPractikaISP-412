@@ -13,7 +13,7 @@
 
         <Button Margin="20" CornerRadius="15" BackgroundColor="#222222"
                 Text="Авторизоваться" TextColor="White"
-                x:Name="Avtor">
+                x:Name="Avtor" Clicked="Avtor_Clicked">
         </Button>
         <Button Margin="20" CornerRadius="15" BackgroundColor="#222222"
                 Text="Зарегистрироваться" TextColor="White"
