@@ -17,7 +17,7 @@
         </Button>
         <Button Margin="20" CornerRadius="15" BackgroundColor="#222222"
                 Text="Зарегистрироваться" TextColor="White"
-                x:Name="Reg" />
+                x:Name="Reg" Clicked="Reg_Clicked"/>
 
         <Button Margin="20" CornerRadius="15" BackgroundColor="#222222"
                 Text="Выйти из приложения" TextColor="White"

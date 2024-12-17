@@ -15,6 +15,7 @@ namespace MehovichPractikaISP
         {
             //Начало работы
             //Проверка работы с коммитами
+            NavigationPage.SetHasNavigationBar(this, false);
             InitializeComponent();
         }
 
@@ -38,6 +39,11 @@ namespace MehovichPractikaISP
                 await DisplayAlert("Ошибка", "Пароль не может быть пустым", "OK");
                 return;
             }
+        }
+
+        private async void Reg_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Registr());
         }
     }
 }
