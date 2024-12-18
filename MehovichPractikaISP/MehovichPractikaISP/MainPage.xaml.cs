@@ -39,6 +39,7 @@ namespace MehovichPractikaISP
                 await DisplayAlert("Ошибка", "Пароль не может быть пустым", "OK");
                 return;
             }
+            await Navigation.PushAsync(new Polsovatel());
         }
 
         private async void Reg_Clicked(object sender, EventArgs e)
